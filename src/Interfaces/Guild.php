@@ -61,7 +61,7 @@ interface Guild {
 	/**
 	 * @see https://discordapp.com/developers/docs/resources/guild#create-guild-channel
 	 * 
-	 * @param array $options ['guild.id' => 'snowflake', 'name' => 'string', 'type' => 'string', 'bitrate' => 'integer', 'user_limit' => 'integer', 'permission_overwrites' => 'array']
+	 * @param array $options ['guild.id' => 'snowflake', 'name' => 'string', 'type' => 'integer', 'parent_id' => 'snowflake', 'bitrate' => 'integer', 'user_limit' => 'integer', 'permission_overwrites' => 'array']
 	 * @return \RestCord\Model\Channel\GuildChannel Returns the new channel object on success.
 	 */
 	public function createGuildChannel(array $options);

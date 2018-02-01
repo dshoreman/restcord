@@ -86,7 +86,9 @@ class GuildChannel {
 	 * 
 	 * @var string
 	 */
-	public $type;
+    public $type;
+
+    public $parent_id;
 
 	/**
 	 * the user limit of the voice channel

@@ -220,8 +220,13 @@
                     },
                     "type": {
                         "location": "json",
-                        "type": "string",
+                        "type": "integer",
                         "description": "\"voice\" or \"text\""
+                    },
+                    "parent_id": {
+                        "location": "json",
+                        "type": "snowflake",
+                        "description": "the parent category's id"
                     },
                     "bitrate": {
                         "location": "json",
